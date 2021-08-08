@@ -122,9 +122,65 @@ else {
 
 //7. how to declare Odd number(7-19) by while loop
 
-let i = 0;
-while (i >= 7) {
-    let OddNumber = i + 2;
-    i++;
-    console.log(OddNumber);
+let number = 7;
+while (number <= 19) {
+    // console.log(number);
+    number += 2;
 }
+
+//8. how to declare array , array-length, array-position-change, array-add-value, array-remove-value
+
+let ages = [12, 23, 56, 61, 21, 34, 54, 21, 44, 54, 76];
+// console.log(ages);
+// console.log(ages.length);
+ages[4] = 100;
+// console.log(ages);
+ages.push(22, 42);
+// console.log(ages);
+ages.pop();
+// console.log(ages);
+
+//9. how to declare for loop on array
+
+let numbers = [12, 13, 14, 15, 16, 17, 18, 19];
+
+// step 1:
+for (let i = 0; i < numbers.length; i++) {
+    i = numbers;
+    // console.log(i);
+}
+
+// step 2:
+for (let number of numbers) {
+    i = number;
+    // console.log(i);
+}
+
+//10. how to declare numbers greater than 80 in an array
+
+let pens = [12, 25, 78, 80, 90, 88, 100, 82, 81, 89, 15, 35, 200];
+let pen = pens[0];
+for (let i = 0; i < pens.length; i++) {
+    pen = pens[i];
+    if (pen >= 80) {
+        // console.log(pen);
+    }
+}
+
+//11. how to declare multiply three numbers using a function
+
+function result(n1, n2, n3) {
+    const output = n1 * n2 * n3;
+    return output;
+}
+const total = result(3, 2, 3);
+// console.log(total);
+
+//12. how to declare an object with three property & change value of one property
+
+let computer = { price: 45000, storage: 1000, brand: 'acer' };
+computer.price = 55000;
+computer['price'] = 77000;
+let computerPrice = 'price';
+computer[computerPrice] = 19000;
+// console.log(computer);
