@@ -1,0 +1,1 @@
+// three type variable (number, string, boolean)
