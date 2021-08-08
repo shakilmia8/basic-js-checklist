@@ -1,0 +1,46 @@
+//1. how to declare a function feetToInch
+
+function feetToInch(feet) {
+    const inch = feet * 12;
+    return inch;
+}
+const output = feetToInch(12);
+// console.log(output);
+
+//2. how to declare a function centimeterToMeter
+
+function centimeterToMeter(centimeter) {
+    const meter = centimeter / 100;
+    return meter;
+}
+const result = centimeterToMeter(1000);
+// console.log(result);
+
+//3. how to declare a function paperRequirements
+
+function paperRequirements(book1, book2, book3) {
+    const book1PageQuantity = 100;
+    const book2PageQuantity = 200;
+    const book3PageQuantity = 300;
+
+    const book1TotalPages = book1 * book1PageQuantity;
+    const book2TotalPages = book2 * book2PageQuantity;
+    const book3TotalPages = book3 * book3PageQuantity;
+
+    const total = book1TotalPages + book2TotalPages + book3TotalPages;
+
+    return total;
+}
+let addition = paperRequirements(2, 6, 2);
+// console.log(addition);
+
+//4. how to declare a function bestFriend
+
+function bestFriend(friendNames) {
+    const names = [];
+    if (names.indexOf()
+    return string;
+}
+let friendNames = ['Rahim', 'Karim', 'Mahin', 'Akash', 'Batash', 'Sobuj', 'Holud'];
+const bestu = bestFriend(friendNames);
+console.log(bestu);
