@@ -36,11 +36,28 @@ let addition = paperRequirements(2, 6, 2);
 
 //4. how to declare a function bestFriend
 
-function bestFriend(friendNames) {
+/* function bestFriend(friendNames) {
     const names = [];
-    if (names.indexOf()
-    return string;
+    for (const letter of friendNames) {
+        if (names.indexOf(letter) > 5) {
+            names.push(letter);
+        }
+    }
+    return names;
 }
-let friendNames = ['Rahim', 'Karim', 'Mahin', 'Akash', 'Batash', 'Sobuj', 'Holud'];
+let friendNames = ['Rahim', 'Karim', 'Mahin', 'Mahin', 'Akash', 'Batash', 'Sobuj', 'Holud'];
 const bestu = bestFriend(friendNames);
-console.log(bestu);
+console.log(bestu); */
+
+//5. 
+
+let i = [12, 8, -3, 1];
+
+while (i > 0) {
+    if (i > 0) {
+        break;
+    }
+    i++;
+}
+
+console.log(i);
